@@ -1,0 +1,22 @@
+create database departmentalstore;
+use departmentalstore;
+select * from cashier;
+CREATE TABLE cashier_login (username VARCHAR(10) PRIMARY KEY,pass_word VARCHAR(10));
+create table stock_request (prod_id int, prod_name varchar(50), quantity varchar(20), count int, request_time timestamp default current_timestamp);
+create table count_prod(prod_id int primary key,prod_name varchar(20),count int default 0);
+create table dprod( prod_id int primary key ,prod_discount integer);
+create table cashier(cashier_id varchar(20),billno int,date_of_bill date,  tot_amt int,payment_method varchar(20));
+create table payment_details_upi(billno int,payment_method varchar(20),upi_id varchar(20));
+create table payment_details_card(billno int,payment_method varchar(20),card_no varchar(20), card_expiry_date varchar(15),cvv int);
+create table payment_details_cash(billno int,payment_method varchar(20),tendered_amount int,change_amount int);
+CREATE TABLE prod_det (prod_id INT PRIMARY KEY,prod_name VARCHAR(50),net_weight int,uom varchar(5),category varchar(20),packaging_mode VARCHAR(20),manufacturing_date DATE,expiry_date DATE,mrp DECIMAL(5,2) DEFAULT 0,retailer_price DECIMAL(5,2) DEFAULT 0,discount INT DEFAULT 0,selling_price DECIMAL(5,2) AS (retailer_price - ((discount / 100) *retailer_price)) STORED);
+CREATE TABLE on_display (prod_id INT PRIMARY KEY,prod_name VARCHAR(50),net_weight INT,uom VARCHAR(5),quantity INT DEFAULT 0);
+CREATE TABLE stock_invoice (prod_id INT NOT NULL PRIMARY KEY, prod_name VARCHAR(255) NULL, quantity INT NULL, price DECIMAL(10,2) NULL, total_amount DECIMAL(10,2) NULL, purchased_at DATETIME NULL);
+CREATE TABLE stock_det (
+    prod_id INT NOT NULL PRIMARY KEY,
+    prod_name VARCHAR(25) NULL,
+    net_weight INT NULL,
+    uom VARCHAR(5) NULL,
+    stock INT NULL,
+    price INT NULL
+);
