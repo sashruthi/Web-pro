@@ -15,6 +15,9 @@ To run the project :
 These are some screenshots of my module:
     ![image alt](https://github.com/sashruthi/Web-pro/blob/e393748f9ec9f5780f309a5bf6475b3cf905201d/Screenshot%202025-11-28%20002319.png)
     ![image alt](https://github.com/sashruthi/Web-pro/blob/e1e5c5ec8b66f18834a4373a3f8ad4a5efe9ebda/Screenshot%202025-11-28%20002332.png)
+    ![image alt](https://github.com/sashruthi/Web-pro/blob/01dfecf948fd1734e22cf45c88d05f838b1d843d/Screenshot%202025-11-28%20002341.png)
+    ![image alt](https://github.com/sashruthi/Web-pro/blob/01dfecf948fd1734e22cf45c88d05f838b1d843d/Screenshot%202025-11-28%20002358.png)
+    
 
   
 
