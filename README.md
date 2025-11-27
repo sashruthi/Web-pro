@@ -9,6 +9,8 @@ Descrpiton:
   Once the payment is successful, the receipt is generated.ard when the payment is successful the recipt is generated 
 
 To run the project :
+    
+    
     open the xampp control panel , start the apache and MySql
     go to the brower , Type localhost/projectname or /particular file name (eg.localhost/login.php
 
