@@ -13,7 +13,7 @@ To run the project :
     go to the brower , Type localhost/projectname or /particular file name (eg.localhost/login.php
 
 These are some screenshots of my module:
-    
+    ![image alt](https://github.com/sashruthi/Web-pro/blob/e393748f9ec9f5780f309a5bf6475b3cf905201d/Screenshot%202025-11-28%20002319.png)
 
 
   
