@@ -9,10 +9,19 @@ Descrpiton:
   Once the payment is successful, the receipt is generated.ard when the payment is successful the recipt is generated 
 
 To run the project :
+    Step1: open the xampp control panel
+    Stpe2: start the Apache and MySQL servers
+    Step3: put your project in the correct folder
+                 your project must be inside:
+                 
+                 C:/xampp/htdocs/departmentalstore/file.php
     
+   Step4: open the browers either Chrome or Edge   
+                  
+                  localhost/departmentalstore(This is for opening main page)
+                  localhost/departmentalstore/login.php(This is for opening specific file)
+                 
     
-    open the xampp control panel , start the apache and MySql
-    go to the brower , Type localhost/projectname or /particular file name (eg.localhost/login.php
 
 These are some screenshots of my module:
     ![image alt](https://github.com/sashruthi/Web-pro/blob/e393748f9ec9f5780f309a5bf6475b3cf905201d/Screenshot%202025-11-28%20002319.png)
