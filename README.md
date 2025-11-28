@@ -4,8 +4,8 @@
 ## Descrpiton:
 
 
-1. It is a team project based on an online departmental store billing system. My role in the project is billing.
-2. In a real store, customers pick the products they need and go to the cashier counter for billing. Similarly, in our system, users can select the products they want and add them to the cart.
+1. It is a team project based on an offline departmental store billing system. My role in the project is billing.
+2. In a real store, customers pick the products they need and proceed to the cashier counter for billing. Likewise, in our system, users(the person who billing) can select the products which is chosen by the customer  and add them to the billing table.
 3. The system provides basic functions such as add, delete, and payment. When the user clicks on Payment, they are taken to the receipt page. 
 4. The receipt shows the date, payment details, and allows the user to choose their payment method — cash, UPI, or card. 
 5. Once the payment is successful, the receipt is generated.ard when the payment is successful the recipt is generated 
